@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body {
+    background-color: #E1AFD1
+}
+
+
+/* header*/
+
+header {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px 20px
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+}
+
+div {
+    margin: 20px;
+}
+
+/*vista mobile*/
+@media (max-width: 767px) {
+
+    .encabezadoTexto {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    .contenedorAlbumes {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footerContenido {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contenedorFearless {
+
+        grid-template-columns: 1fr;
+    }
+    .contenedorFolklore {
+        grid-template-columns: 1fr;
+    }
+    .contenedorMidnights {
+        grid-template-columns: 1fr;
+    }
+    .contenedorSpeaknow {
+        grid-template-columns: 1fr;
+    }
+    .logo {
+        flex-direction: column;
+        border-image-width: 30px;
+    }
+    .encabezado2 {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footerContenido {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contenedorAlbumes {
+        grid-template-columns: 1fr 1fr;
+    }
+    .encabezado1 {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+    
+    
