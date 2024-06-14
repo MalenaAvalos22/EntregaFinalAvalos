@@ -6,11 +6,12 @@
 /* Body */
 
 body {
-    background-color: #E1AFD1
+    background-image: radial-gradient(circle, rgb(248, 161, 175), white);
 }
 
 
 /* header*/
+
 
 header {
     text-align: center;
@@ -49,6 +50,42 @@ h1 {
 div {
     margin: 20px;
 }
+
+
+
+.footerContenido {
+    margin: 30px;
+    padding: 30px;
+    border-top: 1px solid black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+ .imgFearless {
+    margin: 20px;
+ }
+ .imgSpeaknow {
+    margin: 20px;
+ }
+ .imgMidnights {
+    margin: 20px;
+ }
+ .imgFolklore {
+    margin: 20px;
+ }
+
+
+ 
+.logo {
+    text-align: center;
+    border-image-width: 30px;
+
+}
+
+
+
+
+
 
 /*vista mobile*/
 @media (max-width: 767px) {

@@ -9,12 +9,11 @@
 /* Body */
 
 body {
-    background-color: #E1AFD1
+    background-image: radial-gradient(circle, rgb(248, 161, 175), white);
 }
 
 
 /* header*/    
-
 
 .encabezado1 {
     text-align: center;
@@ -65,6 +64,7 @@ body {
 
 div {
     margin: 20px;
+    text-align: center;
 }
 .logo {
     text-align: center;
@@ -73,7 +73,10 @@ div {
 }
 
 
+
+
 /*footer*/
+
 
 
 .footerContenido {
