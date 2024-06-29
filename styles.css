@@ -100,6 +100,7 @@ div {
 
     .contenedorAlbumes {
         grid-template-columns: 1fr 1fr;
+        width: 100%;
     }
     .footerContenido {
         flex-direction: column;
@@ -108,6 +109,7 @@ div {
     .contenedorFearless {
 
         grid-template-columns: 1fr;
+        width: 100%;
     }
     .contenedorFolklore {
         grid-template-columns: 1fr;
@@ -140,61 +142,19 @@ div {
         flex-direction: column;
         text-align: center;
     }
-}
     
-@media (min-width: 768px) and (max-width: 1023px) {
-
-    .carousel slide {
-        text-align: center;
+    .imgFearless2 {
+        width: 70%;
     }
-    .encabezadoTexto {
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
+    .imgFolklore2 {
+        width: 70%;
     }
-
-    .contenedorAlbumes {
-        grid-template-columns: 1fr 1fr;
+    .imgSpeaknow2 {
+        width: 70%;
     }
-    .footerContenido {
-        flex-direction: column;
-        text-align: center;
+    .imgMidnights2 {
+        width: 70%;
     }
-    .contenedorFearless {
-
-        grid-template-columns: 1fr;
-    }
-    .contenedorFolklore {
-        grid-template-columns: 1fr;
-    }
-    .contenedorMidnights {
-        grid-template-columns: 1fr;
-    }
-    .contenedorSpeaknow {
-        grid-template-columns: 1fr;
-    }
-    .logo {
-        flex-direction: column;
-        border-image-width: 30px;
-    }
-    .encabezado2 {
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .footerContenido {
-        flex-direction: column;
-        text-align: center;
-    }
-    .contenedorAlbumes {
-        grid-template-columns: 1fr 1fr;
-    }
-    .encabezado1 {
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-    }
+    
 }
     

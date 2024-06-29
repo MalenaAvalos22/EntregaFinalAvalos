@@ -105,7 +105,6 @@ div {
         text-align: center;
     }
     .contenedorFearless {
-
         grid-template-columns: 1fr;
     }
     .contenedorFolklore {
@@ -139,6 +138,20 @@ div {
         flex-direction: column;
         text-align: center;
     }
+    .imgFearless {
+        width: 100%;
+    }
+    .imgFolklore {
+        width: 100%;
+    }
+    .imgMidnights {
+        width: 100%;
+    }
+    .imgSpeaknow {
+        width: 100%;
+    }
+
+    
 
 }
     
