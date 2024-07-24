@@ -1,19 +1,169 @@
 * {
-  margin: 0;
-  padding: 0;
+ 
+    margin: 0;
+    padding: 0;
+
 }
+
 
 /* Body */
+
 body {
-  background-color: #E1AFD1;
+    background-image: radial-gradient(circle, rgb(248, 161, 175), white);
 }
 
-.footerContenido {
-  margin: 30px;
-  padding: 30px;
-  border-top: 1px solid black;
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
+
+/* header*/    
+
+
+.encabezado1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+
+.navbar-nav {
+    text-align: center;
+    margin: 30px 0px;
+    display: flex;
+}
+
+
+
+.menu {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 20px;
+    
+
+}
+
+.encabezadoTexto {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    place-content: center;
+
+}
+
+.encabezado2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+        
+}
+
+div {
+    margin: 20px;
+    text-align: center;
+}
+.logo {
+    text-align: center;
+    border-image-width: 30px;
+
+}
+
+
+
+
+/*footer*/
+
+
+
+.footerContenido {
+    margin: 30px;
+    padding: 30px;
+    border-top: 1px solid black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*vista mobile*/
+@media (max-width: 767px) {
+
+    .encabezadoTexto {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .contenedorAlbumes {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+    .footerContenido {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contenedorFearless {
+
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .contenedorFolklore {
+        grid-template-columns: 1fr;
+    }
+    .contenedorMidnights {
+        grid-template-columns: 1fr;
+    }
+    .contenedorSpeaknow {
+        grid-template-columns: 1fr;
+    }
+    .logo {
+        flex-direction: column;
+        border-image-width: 30px;
+    }
+    .encabezado2 {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footerContenido {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contenedorAlbumes {
+        grid-template-columns: 1fr 1fr;
+    }
+    .encabezado1 {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .imgFearless2 {
+        width: 70%;
+    }
+    .imgFolklore2 {
+        width: 70%;
+    }
+    .imgSpeaknow2 {
+        width: 70%;
+    }
+    .imgMidnights2 {
+        width: 70%;
+    }
+    
+}
+    
+
+
+
+
+    
+
 
 /*# sourceMappingURL=styles.css.map */
